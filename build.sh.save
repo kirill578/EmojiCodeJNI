@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export PATH="~/Android/Sdk/platform-tools:$PATH"
+export PATH="~/Android/Sdk/ndk-bundle:$PATH"
+
+.~/Android/Sdk/ndk-bundle/ndk-build clean
+/~/Android/Sdk/ndk-bundlendk-build
